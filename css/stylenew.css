@@ -1,0 +1,100 @@
+section.formSec form {
+    margin: 0;
+    z-index: 9;
+    position: relative;
+}
+div.formIcon {
+    position: relative;
+    width: 80%;
+}
+div.form-group__password,
+div.inlineBlock {
+    display: inline-block;
+}
+section.formSec .btn-primary {
+    border-radius: 30px;
+    background-color: #e95420;
+    position: relative;
+    top: 0px;
+    border: 0;
+    padding: 0;
+    height: 50px;
+    width: 100px;
+    text-transform: initial;
+   background-image: none;
+}
+section.formSec .btn-primary:hover {
+    background-color: #fcac04;
+}
+
+div.formIcon .icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    z-index: 1;
+}
+div.formIcon .icon img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+div.formIcon input {
+    border-radius: 40px;
+    border-color: #efefef !important;
+    padding-left: 55px;
+    background-color: #efefef;
+    height: 50px;
+    box-shadow: none !important;
+    border: 0;
+}
+div.formIcon input::placeholder {
+    /* color: #8f9398; */
+    color: #555555;
+}
+section.formSec ul.signUp_remember {
+    padding: 0;
+    margin: 0;
+}
+section.formSec ul.signUp_remember li {
+    display: inline-block;
+    margin-right: 40px;
+}
+section.formSec ul.customBtns {
+    padding: 0;
+    margin: 40px 0 0;
+    position: relative;
+    z-index: 9;
+}
+section.formSec ul.customBtns li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+section.formSec ul.customBtns li a {
+    padding: 15px 10px;
+    display: block;
+    width: 170px;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #fff;
+}
+section.formSec ul.customBtns li:first-child a {
+    background-color: #e95420;
+    box-shadow: 3px 4px 0 0px #d9430f;
+}
+section.formSec ul.customBtns li:last-child a {
+    background-color: #efefef;
+    box-shadow: 3px 4px 0 0px #ddd;
+    color: #111;
+}
+
+img.icon {
+    position: absolute;
+}

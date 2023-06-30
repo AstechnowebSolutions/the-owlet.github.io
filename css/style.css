@@ -4,9 +4,7 @@
 .bodybg{
     background-color: #d0d8e3 ;
 }
-.details-card {
-	background: url(https://vehicleliabilities.in/frontend/images/bg.jpg);
-}
+
 .card-content:hover{
     background-color: #e95420;
     
@@ -52,7 +50,7 @@
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
 }
 .pf{
-    text-align: justify;
+  
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
 }
 
@@ -65,7 +63,7 @@
 
 }
 
-/* End card section */
+/* End card  */
 .item {
     background: #fff;
     text-align: center;
@@ -163,12 +161,8 @@
     top: calc(50% - 3px);
   }
   .about_img {
-    margin-top: 40px;
-    margin-left: 20px;
-    background: #e95420;
-    border-radius: 100px;
-    border: #1f3e58 solid 2px;
-    margin-top: 150px;;
+  margin-top: 50px;
+   
 }
 .about_img figure {
     margin: 0;
@@ -204,57 +198,6 @@ h2.slog {
   font-weight: 700;
   color: #e95420;
 }
-
-
-
-section.fifthSec {
-  padding: 120px 0 40px;
-  position: relative;
-}
-section.fifthSec::before {
-  content: '';
-  background-image: url('');
-  background-repeat: no-repeat;
-  width: 400px;
-  height: 100%;
-  position: absolute;
-  background-size: 100%;
-  top: 100px;
-  left: 0;
-}
-section.fifthSec p {
-  margin: 0 0 15px;
-  font-size: 16px;
-  color: #111;
-}
-section.fifthSec .col-sm-6:first-child {
-  width: 45%;
-}
-section.fifthSec .col-sm-6:last-child {
-  width: 55%;
-}
-section.fifthSec div.secTitle {
-  margin-top: 60px;
-}
-section.fifthSec img.effImg {
-  margin-left: -40px;
-}
-section.fifthSec p,
-section.fouthSecTwo p {
-  margin: 0 0 15px;
-  font-size: 16px;
-  color: #111;
-}
-img.icon {
-  position: absolute;
-}
-.icon19 {
-  top: -60px;
-  left: 0;
-  animation: tada 1.5s infinite ease-in-out;
-}
-
-
 /* timeline csss */
 
 .Yearly-timeline{ 
@@ -424,3 +367,210 @@ h2.slog-blod {
     left: 0;
     top: 0;
 }
+
+/* css form */
+div.formIcon .icon i {
+  width: 35px;
+  height: 35px;
+  background-color: #e95420;
+  color: #fff;
+  line-height: 35px;
+  padding: 0;
+  border-radius: 100px;
+  text-align: center;
+}
+label {
+font-weight:normal;
+}
+.pull-right-middle {
+  line-height: 40px;
+}
+.checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.formSec form {
+  margin: 0;
+  z-index: 9;
+  position: relative;
+}
+div.formIcon {
+  position: relative;
+  width: 80%;
+}
+.form-group__password,
+.inlineBlock {
+  display: inline-block;
+}
+.formSec .btn-primary {
+  border-radius: 30px;
+  background-color: #e95420;
+  position: relative;
+  top: 0px;
+  border: 0;
+  padding: 0;
+  height: 50px;
+  width: 100px;
+  text-transform: initial;
+ background-image: none;
+}
+.formSec .btn-primary:hover {
+  background-color: #fcac04;
+}
+
+div.formIcon .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 55px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  z-index: 1;
+}
+div.formIcon .icon img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+img.icon {
+  position: absolute;
+}
+.icon15 {
+    width: 40px;
+    top: -70px;
+    left: -30px;
+    animation: 2s ease-in-out 0s infinite normal none running shaky;
+}
+div.formIcon input {
+  border-radius: 40px;
+  border-color: #efefef !important;
+  padding-left: 55px;
+  background-color: #efefef;
+  height: 50px;
+  box-shadow: none !important;
+  border: 0;
+}
+div.formIcon input::placeholder {
+  /* color: #8f9398; */
+  color: #555555;
+}
+.formSec ul.signUp_remember {
+  padding: 0;
+  margin: 0;
+}
+.formSec ul.signUp_remember li {
+  display: inline-block;
+  margin-right: 40px;
+}
+.formSec ul.customBtns {
+  padding: 0;
+  margin: 40px 0 0;
+  position: relative;
+  z-index: 9;
+}
+.formSec ul.customBtns li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.formSec ul.customBtns li a {
+  padding: 15px 10px;
+  display: block;
+  width: 170px;
+  text-align: center;
+  border-radius: 40px;
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+}
+.formSec ul.customBtns li:first-child a {
+  background-color: #e95420;
+  box-shadow: 3px 4px 0 0px #d9430f;
+}
+.formSec ul.customBtns li:last-child a {
+  background-color: #efefef;
+  box-shadow: 3px 4px 0 0px #ddd;
+  color: #111;
+}
+
+img.icon {
+  position: absolute;
+}
+.icon15 {
+    width: 40px;
+    top: -70px;
+    left: -30px;
+    animation: 2s ease-in-out 0s infinite normal none running shaky;
+}
+.icon11 {
+  right: 50px;
+  width: 60px;
+  top: -40px;
+  animation: 2.8s ease-in-out 0s infinite normal none running fly;
+}
+
+
+/* ===================
+faq css 
+====================== */
+
+.faq-area .accordion-item {
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 10px !important;
+  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+}
+
+.faq-area .accordion-item span {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.faq-area .accordion-item i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  background: #FF5D22;
+  text-align: center;
+  color: #fff;
+}
+
+.faq-area .accordion-button:not(.collapsed) {
+  color: #FF5D22;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button {
+  border-radius: 10px !important;
+  font-weight: 700;
+  font-size: 18px;
+  color: #192E3F;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  border-bottom: 1px dashed #FF5D22;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("");
+}
+
+@media all and (max-width: 991px) {
+  .faq-left{
+    margin-bottom: 50px;
+  }
+  .accordion-button {
+    font-size: 16px;
+  }
+}
+
